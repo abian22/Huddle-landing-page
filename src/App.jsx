@@ -3,6 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
+     <div className="hidden bg-success bg-info bg-danger bg-warning"></div>
         <img src="../images/logo.svg" className=" mb-20 " />
         <div className="flex max-[600px]:flex-col">
           <img src="../images/illustration-mockups.svg" className="mr-8 " />
