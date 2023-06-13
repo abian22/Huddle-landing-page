@@ -13,10 +13,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
-  background-image: url("../images/bg-desktop.svg");
+  background-image: url("./assets/bg-desktop.svg");
   background-size: cover;
 }
+
+@media (max-width: 600px) {
+   :root {
+    background-image: url("./assets/bg-mobile.svg");
+
+  }
+}
+
 
 a {
   font-weight: 500;
@@ -70,3 +77,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
